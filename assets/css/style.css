@@ -34,9 +34,47 @@
 
 /* Newsletter */
 
+.form {
+	text-align: center;
+	padding: 50px;
+}
+
+.titulo-formulario {
+	margin: 20px;
+	color: white;
+	font-size: 2.5em; 	
+}
+
+.caja-formulario {
+	text-align: center;
+}
+
 .newsletter {
 	text-align: center;
 	padding: 50px;
+	color: white;
+}
+
+#nombre, #email, #address {
+ 	border-radius: 0.5em 0.5em;	
+ 	font-size: 12pt;	
+ 	width: 450px;
+ 	padding: 2px;
+ 	text-align: center;
+}
+ 
+ select {
+ 	width: 200px;
+ }
+ 
+ .label {
+ 	padding: 5px 0 5px 0;	
+ 	font-size: 1.1em; 
+ 	color: white;
+}
+
+.checkbox {
+	color: white;
 }
 
 .newsletter button {

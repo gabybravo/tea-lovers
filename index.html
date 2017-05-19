@@ -19,8 +19,32 @@
 <!-- Sección Newsletter -->
 		<section class="color">
 			<div class="newsletter">
-				<button id="suscribirse">Suscríbete a nuestro Newsletter</button>
-			</div>
+		<div class="caja-formulario">
+			<h1 class="titulo-formulario">¿Quieres saber más sobre té?</h1>
+		</div>
+			<form action="#" method="post" class="form" novalidate>
+ 					<div><div for="Nombre" class="label">Nombre:</div>
+ 					<input type="text" id="nombre" placeholder="Escribe tu nombre, por favor."><br></div>
+ 
+ 					<div><div for="Email" class="label">Email:</div>
+					<input type="email" id="email" placeholder="Escribe un correo válido, por favor."><br></div>
+
+					<div><div for="Dirección" class="label">Dirección:</div>
+ 					<input type="text" id="address" placeholder="Escribe tú dirección, por favor."><br></div>
+ 
+ 					<div><div for="pack" class="label">Té favorito:</div>
+ 					<select name="pack" id="selector">
+ 						<option value="" selected="selected" disabled>Escoje una opción, por favor.</option>
+ 						<option value="negro">Té Negro</option>
+ 						<option value="verde">Té Verde</option>
+ 						<option value="rojo">Té Rojo</option>
+ 						<option value="blanco">Té Blanco</option>
+ 						<option value="oolong">Té Oolong</option>					
+ 					</select><br></div><br>
+ 					<input type="checkbox" id="checkbox" name="checkbox"><div class="checkbox"><label for="checkbox">Pincha la casilla si quieres recibir muestras gratis.</label></div><br>
+ 					<button type="submit" id="suscripcion">¡Suscríbete a nuestro Newsletter!</button>
+ 				</form>
+			</div>	
 		</section>
 <!-- Sección Nuestra Pasión -->
 		<section id="about">
@@ -70,5 +94,7 @@
 	<footer>
 		<p>Té Encato: Av.Italia 1317, Providencia.</p>
 	</footer>
+<script type='text/javascript' src='assets/js/main.js'></script>
+<script type='text/javascript' src='assets/js/dom.js'></script>
 	</body>
 </html>
